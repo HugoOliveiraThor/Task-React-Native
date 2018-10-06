@@ -4,6 +4,7 @@ ADDED from /home/hugooliveira/Projetos/Curso-React-Native/Task-React-Native/andr
 INJECTED from /home/hugooliveira/Projetos/Curso-React-Native/Task-React-Native/android/app/src/main/AndroidManifest.xml:1:1-26:12
 INJECTED from /home/hugooliveira/Projetos/Curso-React-Native/Task-React-Native/android/app/src/main/AndroidManifest.xml:1:1-26:12
 INJECTED from /home/hugooliveira/Projetos/Curso-React-Native/Task-React-Native/android/app/src/main/AndroidManifest.xml:1:1-26:12
+MERGED from [:react-native-vector-icons] /home/hugooliveira/Projetos/Curso-React-Native/Task-React-Native/node_modules/react-native-vector-icons/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [com.facebook.react:react-native:0.57.0] /home/hugooliveira/.gradle/caches/transforms-1/files-1.1/react-native-0.57.0.aar/5b645201736b0272b95c793779292a49/AndroidManifest.xml:2:1-15:12
 MERGED from [com.android.support:appcompat-v7:27.1.1] /home/hugooliveira/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/17b299dd9d0cefbce6ecee94676bb474/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-fragment:27.1.1] /home/hugooliveira/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/8d5edef571d6dd180cc8bb77440a493b/AndroidManifest.xml:17:1-22:12
@@ -97,6 +98,8 @@ uses-sdk
 INJECTED from /home/hugooliveira/Projetos/Curso-React-Native/Task-React-Native/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/hugooliveira/Projetos/Curso-React-Native/Task-React-Native/android/app/src/main/AndroidManifest.xml
 INJECTED from /home/hugooliveira/Projetos/Curso-React-Native/Task-React-Native/android/app/src/main/AndroidManifest.xml
+MERGED from [:react-native-vector-icons] /home/hugooliveira/Projetos/Curso-React-Native/Task-React-Native/node_modules/react-native-vector-icons/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-vector-icons] /home/hugooliveira/Projetos/Curso-React-Native/Task-React-Native/node_modules/react-native-vector-icons/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.react:react-native:0.57.0] /home/hugooliveira/.gradle/caches/transforms-1/files-1.1/react-native-0.57.0.aar/5b645201736b0272b95c793779292a49/AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.react:react-native:0.57.0] /home/hugooliveira/.gradle/caches/transforms-1/files-1.1/react-native-0.57.0.aar/5b645201736b0272b95c793779292a49/AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support:appcompat-v7:27.1.1] /home/hugooliveira/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/17b299dd9d0cefbce6ecee94676bb474/AndroidManifest.xml:20:5-44

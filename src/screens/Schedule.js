@@ -1,27 +1,37 @@
 import React, {Component} from 'react'
-import {StyleSheet, Text, View, ImageBackground } from 'react-native'
+import { StyleSheet, 
+         Text, 
+         View, 
+         ImageBackground,
+         FlatList 
+} from 'react-native'
 import moment from 'moment' 
 import 'moment/locale/pt-br'
 import todayImage from '../../assets/imgs/today.jpg'
 import commonStyles from '../commonStyles'
+import Task from '../components/Task'
 
 export default class Schedule extends Component {
+    state = {
+        tasks: [
+            {id: Math.random(), desc: 'Comprar curso de react native', estimateAt: new Date(), doneAt: new Date() },
+            {id: Math.random(), desc: 'Concluir o curso', estimateAt: new Date(), doneAt: null}
+        ]
+    }
     render() {
         return (
             <View style={styles.container}>
-             <ImageBackground source={todayImage} style={styles.background}>
-                <View style={styles.titleBar}>
-                    <Text style={styles.title}>Hoje</Text>
-                    <Text style={styles.subtitle}>
-                    {  moment().locale('pt-br').format('ddd, D [de] MMMM')}
-                    </Text>
-                    <View style={styles.taskContainer}>
-                        <Text>Tarefa1</Text>
-                        <Text>Tarefa2</Text>
-                        <Text>Tarefa3</Text>
+                <ImageBackground source={todayImage} style={styles.background}>
+                    <View style={styles.titleBar}>
+                        <Text style={styles.title}>Hoje</Text>
+                        <Text style={styles.subtitle}>
+                            {moment().locale('pt-br').format('ddd, D [de] MMMM')}
+                        </Text>
                     </View>
+                </ImageBackground>
+                <View style={styles.tasksContainer}>
+                    <FlatList data={this.state.tasks} keyExtractor={item} />
                 </View>
-             </ImageBackground>
             </View>
         )
     }
@@ -51,7 +61,7 @@ const styles = StyleSheet.create({
         marginLeft: 20,
         marginBottom: 30
     },
-    taskContainer: {
+    tasksContainer: {
         flex: 7,
     }
 })
