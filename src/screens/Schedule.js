@@ -16,6 +16,7 @@ import Task from '../components/Task'
 import Icon from 'react-native-vector-icons/FontAwesome'
 import ActionButton from 'react-native-action-button'
 import AddTask from './AddTask'
+import AsyncStorage from 'AsyncStorage'
 
 
 export default class Schedule extends Component {
@@ -26,8 +27,11 @@ export default class Schedule extends Component {
         showAddTask: false
     }
 
-    componentDidMount = () => {
+    componentDidMount = async () => {
+        const data = await AsyncStorage.getItem('tasks')
+        const tasks = JSON.parse(data) || []
         this.filterTasks()
+        this.setState({ tasks }, this.filterTasks)
     }
 
     addTask = task => {
@@ -55,7 +59,7 @@ export default class Schedule extends Component {
         visibleTasks = this.state.tasks.filter(pending)
       }
       this.setState({ visibleTasks })
-    }
+      AsyncStorage.setItem('tasks', JSON.stringify(this.state.tasks)) }
 
     toggleFilter = () => {
       const { showDoneTasks } = this.state  
