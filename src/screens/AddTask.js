@@ -8,7 +8,8 @@ import {
     DatePickerIOS,
     StyleSheet,
     TouchableWithoutFeedback,
-    TouchableOpacity
+    TouchableOpacity,
+    Alert
 } from 'react-native'
 
 import moment from 'moment'
@@ -20,12 +21,17 @@ export default class AddTask extends Component {
     state = { ...initialState }
 
     save = () => {
+        if (!this.state.desc) {
+            Alert.alert('Dados inválidos', 'Informe uma descrição para a tarefa')
+            return
+        }
         const data = { ...this.state }
         this.props.onSave(data)
         this.setState({...initialState})
     }
 
     render() {
+        console.log('This', this.props)
         return (
             <Modal onRequestClose={this.props.onCancel}
                 visible={this.props.isVisible}

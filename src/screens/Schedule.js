@@ -36,6 +36,17 @@ export default class Schedule extends Component {
         this.filterTasks()
     }
 
+    addTask = task => {
+        const tasks = [...this.state.tasks]
+        tasks.push({
+            id: Math.random(),
+            desc: task.desc,
+            estimateAt: task.date,
+            doneAt: null
+        })
+        this.setState({ tasks, showAddTask: false }, this.filterTasks)
+    }
+
     filterTasks = () => {
       let visibleTasks = null
       if (this.state.showDoneTasks) {
@@ -65,14 +76,23 @@ export default class Schedule extends Component {
       this.setState({ tasks }, this.filterTasks)
     }
     render() {
-      console.log('O', this.state.showDoneTasks)
+      const { showAddTask, showDoneTasks, visibleTasks } = this.state
         return (
             <View style={styles.container}>
-                <ImageBackground source={todayImage} style={styles.background}>
+                <AddTask isVisible={showAddTask}
+                    onSave={this.addTask}
+                    onCancel={() => this.setState({ showAddTask: false })}
+                />    
+                <ImageBackground 
+                    source={todayImage} 
+                    style={styles.background}>
+                
                 <View style={styles.iconBar}>
                   <TouchableOpacity onPress={this.toggleFilter}>
-                    <Icon name={this.state.showDoneTasks ? 'eye' : 'eye-slash'}
-                      size={20} color={commonStyles.colors.secondary} />
+                    <Icon 
+                        name={showDoneTasks ? 'eye' : 'eye-slash'}
+                        size={20} 
+                        color={commonStyles.colors.secondary} />
                   </TouchableOpacity>
                 </View>
                     <View style={styles.titleBar}>
@@ -84,12 +104,15 @@ export default class Schedule extends Component {
                 </ImageBackground>
                 <View style={styles.tasksContainer}>
                     <FlatList
-                      data={this.state.visibleTasks}
+                      data={visibleTasks}
                       keyExtractor={item => `${item.id}`}
                       renderItem={({ item }) =>
                       <Task { ...item } toggleTask={this.toggleTask} />}
                       />
                 </View>
+                <ActionButton 
+                    buttonColor={commonStyles.colors.today}
+                    onPress={() => {this.setState({ showAddTask: true }) }} />
             </View>
         )
     }
