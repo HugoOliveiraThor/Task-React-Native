@@ -9,7 +9,9 @@ import {
     StyleSheet,
     TouchableWithoutFeedback,
     TouchableOpacity,
-    Alert
+    Alert,
+    Platform,
+    DatePickerAndroid
 } from 'react-native'
 
 import moment from 'moment'
@@ -29,17 +31,62 @@ export default class AddTask extends Component {
         this.props.onSave(data)
         this.setState({...initialState})
     }
+    
+    handleDateAndroidChanged = () => {
+        // Documentation example 
+        // try {
+        //     const {action, year, month, day} = await DatePickerAndroid.open({
+        //       // Use `new Date()` for current date.
+        //       // May 25 2020. Month 0 is January.
+        //       date: new Date(2020, 4, 25)
+        //     });
+        //     if (action !== DatePickerAndroid.dismissedAction) {
+        //       // Selected year, month (0-11), day
+        //     }
+        //   } catch ({code, message}) {
+        //     console.warn('Cannot open date picker', message);
+        //   }
+        DatePickerAndroid.open({
+            date: this.state.date
+        }).then(e => {
+            if (e.action !== DatePickerAndroid.dismissedAction) {
+                const momentDate = moment(this.state.date)
+                momentDate.date(e.day)
+                momentDate.month(e.month)
+                momentDate.year(e.year)
+                this.setState({ date: momentDate.toDate() })
+            }
+        })
+
+    }
 
     render() {
-        console.log('This', this.props)
+        console.log('this', this.state)
+        let datePicker = null
+        if (Platform.OS === 'ios') {
+            datePicker = 
+            <DatePickerIOS 
+                mode='date' 
+                date={this.state.date}
+                onDateChange={date => this.setState({ date })} /> 
+        } else {
+            datePicker = (
+            <TouchableOpacity onPress={this.handleDateAndroidChanged}>
+                <Text style={styles.date}>
+                    {moment(this.state.date).format('ddd, D [de] MMMM [de] YYYY')}
+                </Text>
+            </TouchableOpacity>)
+        }
         return (
             <Modal onRequestClose={this.props.onCancel}
                 visible={this.props.isVisible}
                 animationType='slide'
                 transparent={true}>
+                
                 <TouchableWithoutFeedback onPress={this.props.onCancel}>
                     <View style={styles.offset}></View>
                 </TouchableWithoutFeedback>
+
                 <View style={styles.container}>
                     <Text style={styles.header}>Nova Tarefa!</Text>
                     <TextInput 
@@ -47,10 +94,8 @@ export default class AddTask extends Component {
                         style={styles.input}
                         onChangeText={desc => this.setState({ desc })}
                         value={this.state.desc} />
-                    <DatePickerIOS 
-                        mode='date' 
-                        date={this.state.date}
-                        onDateChange={date => this.setState({ date })} />
+                    {datePicker}
+                    
                     <View style={{flexDirection:'row', justifyContent:'flex-end'}}>
                         <TouchableOpacity onPress={this.props.onCancel}>
                             <Text style={styles.button}>Cancelar</Text>
@@ -99,5 +144,12 @@ const styles = StyleSheet.create({
         borderWidth: 1,
         borderColor: '#e3e3e3',
         borderRadius: 6
+    },
+    date: {
+        fontFamily: commonStyles.fontFamily,
+        fontSize:20,
+        marginLeft:10,
+        marginTop:10,
+        textAlign:'center'
     }
 })
