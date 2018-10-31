@@ -27,6 +27,10 @@ export default class Schedule extends Component {
         showDoneTasks: true
     }
 
+    componentDidMount = () => {
+        this.filterTasks()
+    }
+
     filterTasks = () => {
       let visibleTasks = null
       if (this.state.showDoneTasks) {
@@ -39,15 +43,13 @@ export default class Schedule extends Component {
     }
 
     toggleFilter = () => {
-      this.setState({ showDoneTask: !this.state.showDoneTask }, this.filterTasks)
-    }
-
-    componentDidMount = () => {
-      this.filterTasks()
-
+        const { showDoneTasks } = this.state
+      console.log('showDoneTasksss', showDoneTasks)  
+      this.setState({ showDoneTasks: !showDoneTasks }, this.filterTasks)
     }
 
     toggleTask = id => {
+        console.log('ID', id)
       const tasks = this.state.tasks.map(task => {
         if (task.id === id) {
             task = {...task}
@@ -114,5 +116,11 @@ const styles = StyleSheet.create({
     },
     tasksContainer: {
         flex: 7,
+    },
+    iconBar: {
+        marginTop: Platform.OS === 'ios' ? 30 : 10,
+        marginHorizontal: 20,
+        flexDirection: 'row',
+        justifyContent: 'flex-end'
     }
 })
