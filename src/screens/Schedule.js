@@ -6,8 +6,7 @@ import {
   ImageBackground,
   FlatList,
   TouchableOpacity,
-  Platform,
-  Alert
+  Platform
 } from 'react-native'
 import moment from 'moment'
 import 'moment/locale/pt-br'
@@ -21,12 +20,7 @@ import AddTask from './AddTask'
 
 export default class Schedule extends Component {
     state = {
-        tasks: [
-          {id: Math.random(), desc: 'Finalizar o exemplo de react-native', estimateAt: new Date(), doneAt: new Date() },
-          {id: Math.random(), desc: 'Organizar as dependências do curso', estimateAt: new Date(), doneAt: null},
-          {id: Math.random(), desc: 'Atualizar o README.md no github', estimateAt: new Date(), doneAt: new Date() },
-          {id: Math.random(), desc: 'Adicionar imagens das telas', estimateAt: new Date(), doneAt: null},
-        ],
+        tasks: [],
         visibleTasks: [],
         showDoneTasks: true,
         showAddTask: false
@@ -64,13 +58,11 @@ export default class Schedule extends Component {
     }
 
     toggleFilter = () => {
-        const { showDoneTasks } = this.state
-      console.log('showDoneTasksss', showDoneTasks)  
+      const { showDoneTasks } = this.state  
       this.setState({ showDoneTasks: !showDoneTasks }, this.filterTasks)
     }
 
     toggleTask = id => {
-        console.log('ID', id)
       const tasks = this.state.tasks.map(task => {
         if (task.id === id) {
             task = {...task}
@@ -80,8 +72,10 @@ export default class Schedule extends Component {
       })
       this.setState({ tasks }, this.filterTasks)
     }
+
     render() {
       const { showAddTask, showDoneTasks, visibleTasks } = this.state
+
         return (
             <View style={styles.container}>
                 <AddTask isVisible={showAddTask}
