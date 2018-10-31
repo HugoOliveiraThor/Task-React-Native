@@ -6,7 +6,8 @@ import {
   ImageBackground,
   FlatList,
   TouchableOpacity,
-  Platform
+  Platform,
+  Alert
 } from 'react-native'
 import moment from 'moment'
 import 'moment/locale/pt-br'
@@ -14,6 +15,9 @@ import todayImage from '../../assets/imgs/today.jpg'
 import commonStyles from '../commonStyles'
 import Task from '../components/Task'
 import Icon from 'react-native-vector-icons/FontAwesome'
+import ActionButton from 'react-native-action-button'
+import AddTask from './AddTask'
+
 
 export default class Schedule extends Component {
     state = {
@@ -24,7 +28,8 @@ export default class Schedule extends Component {
           {id: Math.random(), desc: 'Adicionar imagens das telas', estimateAt: new Date(), doneAt: null},
         ],
         visibleTasks: [],
-        showDoneTasks: true
+        showDoneTasks: true,
+        showAddTask: false
     }
 
     componentDidMount = () => {
