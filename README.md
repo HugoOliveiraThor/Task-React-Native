@@ -1,11 +1,11 @@
 # Task-React-Native
 A simple task made in react native 
 
-# Command to start emulator without open android studio
+## Command to start emulator without open android studio
 emulator -no-snapshot -avd NEXUS_5X_API_26
-# List emulators created 
+## List emulators created 
 emulator -list-avds
-# rnpm - what is ? React native package manager 
+## rnpm - what is ? React native package manager 
 ex :"assets": [
       "./assets/fonts/"
     ]

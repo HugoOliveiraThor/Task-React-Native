@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/hugooliveira/Projetos/Curso-React-Native/Task-React-Native/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-large-v4/values-large-v4.xml",
+            "outputFile": "/home/hugo/Projetos/React/Task-React-Native/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-large-v4/values-large-v4.xml",
             "map": [
                 {
-                    "source": "/home/hugooliveira/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/17b299dd9d0cefbce6ecee94676bb474/res/values-large-v4/values-large-v4.xml",
+                    "source": "/home/hugo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/b92bf6db659635525f5d31f7034cf98f/res/values-large-v4/values-large-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10",
                         "startColumns": "4,4,4,4,4,4,4,4,4",

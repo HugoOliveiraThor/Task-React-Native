@@ -18,10 +18,10 @@ import Icon from 'react-native-vector-icons/FontAwesome'
 export default class Schedule extends Component {
     state = {
         tasks: [
-          {id: Math.random(), desc: 'Comprar curso de react native', estimateAt: new Date(), doneAt: new Date() },
-          {id: Math.random(), desc: 'Concluir o curso', estimateAt: new Date(), doneAt: null},
-          {id: Math.random(), desc: 'Comprar curso de react native', estimateAt: new Date(), doneAt: new Date() },
-          {id: Math.random(), desc: 'Concluir o curso', estimateAt: new Date(), doneAt: null},
+          {id: Math.random(), desc: 'Finalizar o exemplo de react-native', estimateAt: new Date(), doneAt: new Date() },
+          {id: Math.random(), desc: 'Organizar as dependências do curso', estimateAt: new Date(), doneAt: null},
+          {id: Math.random(), desc: 'Atualizar o README.md no github', estimateAt: new Date(), doneAt: new Date() },
+          {id: Math.random(), desc: 'Adicionar imagens das telas', estimateAt: new Date(), doneAt: null},
         ],
         visibleTasks: [],
         showDoneTasks: true

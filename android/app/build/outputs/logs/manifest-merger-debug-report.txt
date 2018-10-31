@@ -1,156 +1,156 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/hugooliveira/Projetos/Curso-React-Native/Task-React-Native/android/app/src/main/AndroidManifest.xml:1:1-26:12
-INJECTED from /home/hugooliveira/Projetos/Curso-React-Native/Task-React-Native/android/app/src/main/AndroidManifest.xml:1:1-26:12
-INJECTED from /home/hugooliveira/Projetos/Curso-React-Native/Task-React-Native/android/app/src/main/AndroidManifest.xml:1:1-26:12
-INJECTED from /home/hugooliveira/Projetos/Curso-React-Native/Task-React-Native/android/app/src/main/AndroidManifest.xml:1:1-26:12
-MERGED from [:react-native-vector-icons] /home/hugooliveira/Projetos/Curso-React-Native/Task-React-Native/node_modules/react-native-vector-icons/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-11:12
-MERGED from [com.facebook.react:react-native:0.57.0] /home/hugooliveira/.gradle/caches/transforms-1/files-1.1/react-native-0.57.0.aar/5b645201736b0272b95c793779292a49/AndroidManifest.xml:2:1-15:12
-MERGED from [com.android.support:appcompat-v7:27.1.1] /home/hugooliveira/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/17b299dd9d0cefbce6ecee94676bb474/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-fragment:27.1.1] /home/hugooliveira/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/8d5edef571d6dd180cc8bb77440a493b/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] /home/hugooliveira/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/abaf0ae8399b08e8fcf050cbdf1cbeef/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-ui:27.1.1] /home/hugooliveira/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/af25d87b2b85de2efe471156897defa6/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-utils:27.1.1] /home/hugooliveira/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/308e12c70d41be575c2917a39ae96197/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-vector-drawable:27.1.1] /home/hugooliveira/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/ae71754bae130343d7f26180c3834dd8/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-compat:27.1.1] /home/hugooliveira/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/8177b6ed13abcef627d63bfb587a05df/AndroidManifest.xml:17:1-22:12
-MERGED from [com.facebook.fresco:fresco:1.10.0] /home/hugooliveira/.gradle/caches/transforms-1/files-1.1/fresco-1.10.0.aar/e11020ce5c393b9cca66f04a98b8846f/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.10.0] /home/hugooliveira/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.10.0.aar/3c9a6b96e3e4224d990c9e734dab7aaa/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:drawee:1.10.0] /home/hugooliveira/.gradle/caches/transforms-1/files-1.1/drawee-1.10.0.aar/a4ffc5f5ddf8f3268601d885b70bc4d9/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:imagepipeline:1.10.0] /home/hugooliveira/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.10.0.aar/d6c4e5eb71098c8e1e6851c10bd20c88/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] /home/hugooliveira/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.10.0.aar/d2be2b35781e846297280dacc56fa201/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.soloader:soloader:0.5.1] /home/hugooliveira/.gradle/caches/transforms-1/files-1.1/soloader-0.5.1.aar/efa3e9382921afd31737c8a36e7d8978/AndroidManifest.xml:2:1-13:12
-MERGED from [org.webkit:android-jsc:r174650] /home/hugooliveira/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/e703f0dc960773b3179564b2cd8588b1/AndroidManifest.xml:1:1-3:12
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/hugooliveira/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/ca735ef14ea94a0aac59157bbe96428c/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/hugooliveira/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/30235243e4e89f44764dfbad7748468c/AndroidManifest.xml:17:1-22:12
-MERGED from [com.facebook.fresco:fbcore:1.10.0] /home/hugooliveira/.gradle/caches/transforms-1/files-1.1/fbcore-1.10.0.aar/065d221fa197e062c7da7539c3276f2e/AndroidManifest.xml:2:1-9:12
-MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/hugooliveira/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/828ba610fd78021a329299230e70c4d3/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.core:runtime:1.1.0] /home/hugooliveira/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/4b559d51e4319fb1c56776be3cd054ff/AndroidManifest.xml:17:1-22:12
-INJECTED from /home/hugooliveira/Projetos/Curso-React-Native/Task-React-Native/android/app/src/main/AndroidManifest.xml:1:1-26:12
-INJECTED from /home/hugooliveira/Projetos/Curso-React-Native/Task-React-Native/android/app/src/main/AndroidManifest.xml:1:1-26:12
-INJECTED from /home/hugooliveira/Projetos/Curso-React-Native/Task-React-Native/android/app/src/main/AndroidManifest.xml:1:1-26:12
+ADDED from /home/hugo/Projetos/React/Task-React-Native/android/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /home/hugo/Projetos/React/Task-React-Native/android/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /home/hugo/Projetos/React/Task-React-Native/android/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /home/hugo/Projetos/React/Task-React-Native/android/app/src/main/AndroidManifest.xml:1:1-26:12
+MERGED from [:react-native-vector-icons] /home/hugo/Projetos/React/Task-React-Native/node_modules/react-native-vector-icons/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [com.facebook.react:react-native:0.57.0] /home/hugo/.gradle/caches/transforms-1/files-1.1/react-native-0.57.0.aar/e446d860ebfebe95ffa5de06bc553748/AndroidManifest.xml:2:1-15:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] /home/hugo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/b92bf6db659635525f5d31f7034cf98f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] /home/hugo/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/5b32a51841f6b84ae467081c60c791ac/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /home/hugo/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/a4119159e2c8c6e5b7a3608705437881/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] /home/hugo/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/9544a5ae5b890a0f2589d10eee5b84f1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] /home/hugo/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/e242c7e6c68ff621756e8876c0b085c9/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /home/hugo/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/ffe78eaab522aba8e600315547f97a46/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] /home/hugo/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/8ff9fa11b66d356381bf4c8cf4c81f47/AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.fresco:fresco:1.10.0] /home/hugo/.gradle/caches/transforms-1/files-1.1/fresco-1.10.0.aar/f6c08e79484db74e20cc6e15eea2f7d0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.10.0] /home/hugo/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.10.0.aar/de42569c330389bac8e2efedbfbfebe1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:drawee:1.10.0] /home/hugo/.gradle/caches/transforms-1/files-1.1/drawee-1.10.0.aar/a6c2398ee0b0ad62e18f994b04f98908/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:1.10.0] /home/hugo/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.10.0.aar/f1de39cac930cdf3064a0c932a528cef/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] /home/hugo/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.10.0.aar/ce7bb44d1ce9010242447702651b460b/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.5.1] /home/hugo/.gradle/caches/transforms-1/files-1.1/soloader-0.5.1.aar/1856a3d58c8b656fea4bad83cad37db8/AndroidManifest.xml:2:1-13:12
+MERGED from [org.webkit:android-jsc:r174650] /home/hugo/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/cbeaacc898d6358ebf512219b75e6425/AndroidManifest.xml:1:1-3:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/hugo/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/847dd1c68b2eed4b289ea04ba6541a2d/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/hugo/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/43a86f63f3f4293aa1033a4ec9e6d567/AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.fresco:fbcore:1.10.0] /home/hugo/.gradle/caches/transforms-1/files-1.1/fbcore-1.10.0.aar/71443f5c1e7dbc2f9de4cec048119e8f/AndroidManifest.xml:2:1-9:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/hugo/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/afa41dd3b68a4bbbb600ef5924118bfb/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] /home/hugo/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/d4dedb18f7bd17fa3f2a4752b13e2fec/AndroidManifest.xml:17:1-22:12
+INJECTED from /home/hugo/Projetos/React/Task-React-Native/android/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /home/hugo/Projetos/React/Task-React-Native/android/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /home/hugo/Projetos/React/Task-React-Native/android/app/src/main/AndroidManifest.xml:1:1-26:12
 	package
-		ADDED from /home/hugooliveira/Projetos/Curso-React-Native/Task-React-Native/android/app/src/main/AndroidManifest.xml:2:5-24
-		INJECTED from /home/hugooliveira/Projetos/Curso-React-Native/Task-React-Native/android/app/src/main/AndroidManifest.xml
-		INJECTED from /home/hugooliveira/Projetos/Curso-React-Native/Task-React-Native/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/hugo/Projetos/React/Task-React-Native/android/app/src/main/AndroidManifest.xml:2:5-24
+		INJECTED from /home/hugo/Projetos/React/Task-React-Native/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/hugo/Projetos/React/Task-React-Native/android/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /home/hugooliveira/Projetos/Curso-React-Native/Task-React-Native/android/app/src/main/AndroidManifest.xml
-		ADDED from /home/hugooliveira/Projetos/Curso-React-Native/Task-React-Native/android/app/src/main/AndroidManifest.xml:1:1-26:12
-		INJECTED from /home/hugooliveira/Projetos/Curso-React-Native/Task-React-Native/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/hugo/Projetos/React/Task-React-Native/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/hugo/Projetos/React/Task-React-Native/android/app/src/main/AndroidManifest.xml:1:1-26:12
+		INJECTED from /home/hugo/Projetos/React/Task-React-Native/android/app/src/main/AndroidManifest.xml
 	android:versionCode
-		INJECTED from /home/hugooliveira/Projetos/Curso-React-Native/Task-React-Native/android/app/src/main/AndroidManifest.xml
-		ADDED from /home/hugooliveira/Projetos/Curso-React-Native/Task-React-Native/android/app/src/main/AndroidManifest.xml:1:1-26:12
-		INJECTED from /home/hugooliveira/Projetos/Curso-React-Native/Task-React-Native/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/hugo/Projetos/React/Task-React-Native/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/hugo/Projetos/React/Task-React-Native/android/app/src/main/AndroidManifest.xml:1:1-26:12
+		INJECTED from /home/hugo/Projetos/React/Task-React-Native/android/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /home/hugooliveira/Projetos/Curso-React-Native/Task-React-Native/android/app/src/main/AndroidManifest.xml:1:11-69
+		ADDED from /home/hugo/Projetos/React/Task-React-Native/android/app/src/main/AndroidManifest.xml:1:11-69
 uses-permission#android.permission.INTERNET
-ADDED from /home/hugooliveira/Projetos/Curso-React-Native/Task-React-Native/android/app/src/main/AndroidManifest.xml:4:5-67
+ADDED from /home/hugo/Projetos/React/Task-React-Native/android/app/src/main/AndroidManifest.xml:4:5-67
 	android:name
-		ADDED from /home/hugooliveira/Projetos/Curso-React-Native/Task-React-Native/android/app/src/main/AndroidManifest.xml:4:22-64
+		ADDED from /home/hugo/Projetos/React/Task-React-Native/android/app/src/main/AndroidManifest.xml:4:22-64
 uses-permission#android.permission.SYSTEM_ALERT_WINDOW
-ADDED from /home/hugooliveira/Projetos/Curso-React-Native/Task-React-Native/android/app/src/main/AndroidManifest.xml:5:5-77
-MERGED from [com.facebook.react:react-native:0.57.0] /home/hugooliveira/.gradle/caches/transforms-1/files-1.1/react-native-0.57.0.aar/5b645201736b0272b95c793779292a49/AndroidManifest.xml:11:5-78
-MERGED from [com.facebook.react:react-native:0.57.0] /home/hugooliveira/.gradle/caches/transforms-1/files-1.1/react-native-0.57.0.aar/5b645201736b0272b95c793779292a49/AndroidManifest.xml:11:5-78
+ADDED from /home/hugo/Projetos/React/Task-React-Native/android/app/src/main/AndroidManifest.xml:5:5-77
+MERGED from [com.facebook.react:react-native:0.57.0] /home/hugo/.gradle/caches/transforms-1/files-1.1/react-native-0.57.0.aar/e446d860ebfebe95ffa5de06bc553748/AndroidManifest.xml:11:5-78
+MERGED from [com.facebook.react:react-native:0.57.0] /home/hugo/.gradle/caches/transforms-1/files-1.1/react-native-0.57.0.aar/e446d860ebfebe95ffa5de06bc553748/AndroidManifest.xml:11:5-78
 	android:name
-		ADDED from /home/hugooliveira/Projetos/Curso-React-Native/Task-React-Native/android/app/src/main/AndroidManifest.xml:5:22-75
+		ADDED from /home/hugo/Projetos/React/Task-React-Native/android/app/src/main/AndroidManifest.xml:5:22-75
 application
-ADDED from /home/hugooliveira/Projetos/Curso-React-Native/Task-React-Native/android/app/src/main/AndroidManifest.xml:7:5-24:19
-MERGED from [com.facebook.react:react-native:0.57.0] /home/hugooliveira/.gradle/caches/transforms-1/files-1.1/react-native-0.57.0.aar/5b645201736b0272b95c793779292a49/AndroidManifest.xml:13:5-20
-MERGED from [com.facebook.react:react-native:0.57.0] /home/hugooliveira/.gradle/caches/transforms-1/files-1.1/react-native-0.57.0.aar/5b645201736b0272b95c793779292a49/AndroidManifest.xml:13:5-20
-MERGED from [com.facebook.soloader:soloader:0.5.1] /home/hugooliveira/.gradle/caches/transforms-1/files-1.1/soloader-0.5.1.aar/efa3e9382921afd31737c8a36e7d8978/AndroidManifest.xml:11:5-20
-MERGED from [com.facebook.soloader:soloader:0.5.1] /home/hugooliveira/.gradle/caches/transforms-1/files-1.1/soloader-0.5.1.aar/efa3e9382921afd31737c8a36e7d8978/AndroidManifest.xml:11:5-20
-MERGED from [org.webkit:android-jsc:r174650] /home/hugooliveira/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/e703f0dc960773b3179564b2cd8588b1/AndroidManifest.xml:2:3-17
-MERGED from [org.webkit:android-jsc:r174650] /home/hugooliveira/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/e703f0dc960773b3179564b2cd8588b1/AndroidManifest.xml:2:3-17
+ADDED from /home/hugo/Projetos/React/Task-React-Native/android/app/src/main/AndroidManifest.xml:7:5-24:19
+MERGED from [com.facebook.react:react-native:0.57.0] /home/hugo/.gradle/caches/transforms-1/files-1.1/react-native-0.57.0.aar/e446d860ebfebe95ffa5de06bc553748/AndroidManifest.xml:13:5-20
+MERGED from [com.facebook.react:react-native:0.57.0] /home/hugo/.gradle/caches/transforms-1/files-1.1/react-native-0.57.0.aar/e446d860ebfebe95ffa5de06bc553748/AndroidManifest.xml:13:5-20
+MERGED from [com.facebook.soloader:soloader:0.5.1] /home/hugo/.gradle/caches/transforms-1/files-1.1/soloader-0.5.1.aar/1856a3d58c8b656fea4bad83cad37db8/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:soloader:0.5.1] /home/hugo/.gradle/caches/transforms-1/files-1.1/soloader-0.5.1.aar/1856a3d58c8b656fea4bad83cad37db8/AndroidManifest.xml:11:5-20
+MERGED from [org.webkit:android-jsc:r174650] /home/hugo/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/cbeaacc898d6358ebf512219b75e6425/AndroidManifest.xml:2:3-17
+MERGED from [org.webkit:android-jsc:r174650] /home/hugo/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/cbeaacc898d6358ebf512219b75e6425/AndroidManifest.xml:2:3-17
 	android:label
-		ADDED from /home/hugooliveira/Projetos/Curso-React-Native/Task-React-Native/android/app/src/main/AndroidManifest.xml:9:7-39
+		ADDED from /home/hugo/Projetos/React/Task-React-Native/android/app/src/main/AndroidManifest.xml:9:7-39
 	android:icon
-		ADDED from /home/hugooliveira/Projetos/Curso-React-Native/Task-React-Native/android/app/src/main/AndroidManifest.xml:10:7-41
+		ADDED from /home/hugo/Projetos/React/Task-React-Native/android/app/src/main/AndroidManifest.xml:10:7-41
 	android:allowBackup
-		ADDED from /home/hugooliveira/Projetos/Curso-React-Native/Task-React-Native/android/app/src/main/AndroidManifest.xml:11:7-34
+		ADDED from /home/hugo/Projetos/React/Task-React-Native/android/app/src/main/AndroidManifest.xml:11:7-34
 	android:theme
-		ADDED from /home/hugooliveira/Projetos/Curso-React-Native/Task-React-Native/android/app/src/main/AndroidManifest.xml:12:7-38
+		ADDED from /home/hugo/Projetos/React/Task-React-Native/android/app/src/main/AndroidManifest.xml:12:7-38
 	android:name
-		ADDED from /home/hugooliveira/Projetos/Curso-React-Native/Task-React-Native/android/app/src/main/AndroidManifest.xml:8:7-38
+		ADDED from /home/hugo/Projetos/React/Task-React-Native/android/app/src/main/AndroidManifest.xml:8:7-38
 activity#com.tasks.MainActivity
-ADDED from /home/hugooliveira/Projetos/Curso-React-Native/Task-React-Native/android/app/src/main/AndroidManifest.xml:13:7-22:18
+ADDED from /home/hugo/Projetos/React/Task-React-Native/android/app/src/main/AndroidManifest.xml:13:7-22:18
 	android:label
-		ADDED from /home/hugooliveira/Projetos/Curso-React-Native/Task-React-Native/android/app/src/main/AndroidManifest.xml:15:9-41
+		ADDED from /home/hugo/Projetos/React/Task-React-Native/android/app/src/main/AndroidManifest.xml:15:9-41
 	android:windowSoftInputMode
-		ADDED from /home/hugooliveira/Projetos/Curso-React-Native/Task-React-Native/android/app/src/main/AndroidManifest.xml:17:9-51
+		ADDED from /home/hugo/Projetos/React/Task-React-Native/android/app/src/main/AndroidManifest.xml:17:9-51
 	android:configChanges
-		ADDED from /home/hugooliveira/Projetos/Curso-React-Native/Task-React-Native/android/app/src/main/AndroidManifest.xml:16:9-79
+		ADDED from /home/hugo/Projetos/React/Task-React-Native/android/app/src/main/AndroidManifest.xml:16:9-79
 	android:name
-		ADDED from /home/hugooliveira/Projetos/Curso-React-Native/Task-React-Native/android/app/src/main/AndroidManifest.xml:14:9-37
+		ADDED from /home/hugo/Projetos/React/Task-React-Native/android/app/src/main/AndroidManifest.xml:14:9-37
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /home/hugooliveira/Projetos/Curso-React-Native/Task-React-Native/android/app/src/main/AndroidManifest.xml:18:9-21:25
+ADDED from /home/hugo/Projetos/React/Task-React-Native/android/app/src/main/AndroidManifest.xml:18:9-21:25
 action#android.intent.action.MAIN
-ADDED from /home/hugooliveira/Projetos/Curso-React-Native/Task-React-Native/android/app/src/main/AndroidManifest.xml:19:13-65
+ADDED from /home/hugo/Projetos/React/Task-React-Native/android/app/src/main/AndroidManifest.xml:19:13-65
 	android:name
-		ADDED from /home/hugooliveira/Projetos/Curso-React-Native/Task-React-Native/android/app/src/main/AndroidManifest.xml:19:21-62
+		ADDED from /home/hugo/Projetos/React/Task-React-Native/android/app/src/main/AndroidManifest.xml:19:21-62
 category#android.intent.category.LAUNCHER
-ADDED from /home/hugooliveira/Projetos/Curso-React-Native/Task-React-Native/android/app/src/main/AndroidManifest.xml:20:13-73
+ADDED from /home/hugo/Projetos/React/Task-React-Native/android/app/src/main/AndroidManifest.xml:20:13-73
 	android:name
-		ADDED from /home/hugooliveira/Projetos/Curso-React-Native/Task-React-Native/android/app/src/main/AndroidManifest.xml:20:23-70
+		ADDED from /home/hugo/Projetos/React/Task-React-Native/android/app/src/main/AndroidManifest.xml:20:23-70
 activity#com.facebook.react.devsupport.DevSettingsActivity
-ADDED from /home/hugooliveira/Projetos/Curso-React-Native/Task-React-Native/android/app/src/main/AndroidManifest.xml:23:7-84
+ADDED from /home/hugo/Projetos/React/Task-React-Native/android/app/src/main/AndroidManifest.xml:23:7-84
 	android:name
-		ADDED from /home/hugooliveira/Projetos/Curso-React-Native/Task-React-Native/android/app/src/main/AndroidManifest.xml:23:17-81
+		ADDED from /home/hugo/Projetos/React/Task-React-Native/android/app/src/main/AndroidManifest.xml:23:17-81
 uses-sdk
-INJECTED from /home/hugooliveira/Projetos/Curso-React-Native/Task-React-Native/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /home/hugooliveira/Projetos/Curso-React-Native/Task-React-Native/android/app/src/main/AndroidManifest.xml
-INJECTED from /home/hugooliveira/Projetos/Curso-React-Native/Task-React-Native/android/app/src/main/AndroidManifest.xml
-MERGED from [:react-native-vector-icons] /home/hugooliveira/Projetos/Curso-React-Native/Task-React-Native/node_modules/react-native-vector-icons/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-vector-icons] /home/hugooliveira/Projetos/Curso-React-Native/Task-React-Native/node_modules/react-native-vector-icons/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.react:react-native:0.57.0] /home/hugooliveira/.gradle/caches/transforms-1/files-1.1/react-native-0.57.0.aar/5b645201736b0272b95c793779292a49/AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.react:react-native:0.57.0] /home/hugooliveira/.gradle/caches/transforms-1/files-1.1/react-native-0.57.0.aar/5b645201736b0272b95c793779292a49/AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:appcompat-v7:27.1.1] /home/hugooliveira/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/17b299dd9d0cefbce6ecee94676bb474/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:27.1.1] /home/hugooliveira/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/17b299dd9d0cefbce6ecee94676bb474/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.1.1] /home/hugooliveira/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/8d5edef571d6dd180cc8bb77440a493b/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.1.1] /home/hugooliveira/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/8d5edef571d6dd180cc8bb77440a493b/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] /home/hugooliveira/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/abaf0ae8399b08e8fcf050cbdf1cbeef/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] /home/hugooliveira/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/abaf0ae8399b08e8fcf050cbdf1cbeef/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.1.1] /home/hugooliveira/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/af25d87b2b85de2efe471156897defa6/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.1.1] /home/hugooliveira/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/af25d87b2b85de2efe471156897defa6/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.1.1] /home/hugooliveira/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/308e12c70d41be575c2917a39ae96197/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.1.1] /home/hugooliveira/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/308e12c70d41be575c2917a39ae96197/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.1.1] /home/hugooliveira/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/ae71754bae130343d7f26180c3834dd8/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.1.1] /home/hugooliveira/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/ae71754bae130343d7f26180c3834dd8/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.1.1] /home/hugooliveira/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/8177b6ed13abcef627d63bfb587a05df/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.1.1] /home/hugooliveira/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/8177b6ed13abcef627d63bfb587a05df/AndroidManifest.xml:20:5-44
-MERGED from [com.facebook.fresco:fresco:1.10.0] /home/hugooliveira/.gradle/caches/transforms-1/files-1.1/fresco-1.10.0.aar/e11020ce5c393b9cca66f04a98b8846f/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:fresco:1.10.0] /home/hugooliveira/.gradle/caches/transforms-1/files-1.1/fresco-1.10.0.aar/e11020ce5c393b9cca66f04a98b8846f/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.10.0] /home/hugooliveira/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.10.0.aar/3c9a6b96e3e4224d990c9e734dab7aaa/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.10.0] /home/hugooliveira/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.10.0.aar/3c9a6b96e3e4224d990c9e734dab7aaa/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:drawee:1.10.0] /home/hugooliveira/.gradle/caches/transforms-1/files-1.1/drawee-1.10.0.aar/a4ffc5f5ddf8f3268601d885b70bc4d9/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:drawee:1.10.0] /home/hugooliveira/.gradle/caches/transforms-1/files-1.1/drawee-1.10.0.aar/a4ffc5f5ddf8f3268601d885b70bc4d9/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline:1.10.0] /home/hugooliveira/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.10.0.aar/d6c4e5eb71098c8e1e6851c10bd20c88/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline:1.10.0] /home/hugooliveira/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.10.0.aar/d6c4e5eb71098c8e1e6851c10bd20c88/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] /home/hugooliveira/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.10.0.aar/d2be2b35781e846297280dacc56fa201/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] /home/hugooliveira/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.10.0.aar/d2be2b35781e846297280dacc56fa201/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.soloader:soloader:0.5.1] /home/hugooliveira/.gradle/caches/transforms-1/files-1.1/soloader-0.5.1.aar/efa3e9382921afd31737c8a36e7d8978/AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.soloader:soloader:0.5.1] /home/hugooliveira/.gradle/caches/transforms-1/files-1.1/soloader-0.5.1.aar/efa3e9382921afd31737c8a36e7d8978/AndroidManifest.xml:7:5-9:41
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/hugooliveira/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/ca735ef14ea94a0aac59157bbe96428c/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/hugooliveira/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/ca735ef14ea94a0aac59157bbe96428c/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/hugooliveira/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/30235243e4e89f44764dfbad7748468c/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/hugooliveira/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/30235243e4e89f44764dfbad7748468c/AndroidManifest.xml:20:5-44
-MERGED from [com.facebook.fresco:fbcore:1.10.0] /home/hugooliveira/.gradle/caches/transforms-1/files-1.1/fbcore-1.10.0.aar/065d221fa197e062c7da7539c3276f2e/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:fbcore:1.10.0] /home/hugooliveira/.gradle/caches/transforms-1/files-1.1/fbcore-1.10.0.aar/065d221fa197e062c7da7539c3276f2e/AndroidManifest.xml:5:5-7:41
-MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/hugooliveira/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/828ba610fd78021a329299230e70c4d3/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/hugooliveira/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/828ba610fd78021a329299230e70c4d3/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.0] /home/hugooliveira/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/4b559d51e4319fb1c56776be3cd054ff/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.0] /home/hugooliveira/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/4b559d51e4319fb1c56776be3cd054ff/AndroidManifest.xml:20:5-44
-INJECTED from /home/hugooliveira/Projetos/Curso-React-Native/Task-React-Native/android/app/src/main/AndroidManifest.xml
-INJECTED from /home/hugooliveira/Projetos/Curso-React-Native/Task-React-Native/android/app/src/main/AndroidManifest.xml
+INJECTED from /home/hugo/Projetos/React/Task-React-Native/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/hugo/Projetos/React/Task-React-Native/android/app/src/main/AndroidManifest.xml
+INJECTED from /home/hugo/Projetos/React/Task-React-Native/android/app/src/main/AndroidManifest.xml
+MERGED from [:react-native-vector-icons] /home/hugo/Projetos/React/Task-React-Native/node_modules/react-native-vector-icons/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-vector-icons] /home/hugo/Projetos/React/Task-React-Native/node_modules/react-native-vector-icons/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.57.0] /home/hugo/.gradle/caches/transforms-1/files-1.1/react-native-0.57.0.aar/e446d860ebfebe95ffa5de06bc553748/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.57.0] /home/hugo/.gradle/caches/transforms-1/files-1.1/react-native-0.57.0.aar/e446d860ebfebe95ffa5de06bc553748/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:27.1.1] /home/hugo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/b92bf6db659635525f5d31f7034cf98f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /home/hugo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/b92bf6db659635525f5d31f7034cf98f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /home/hugo/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/5b32a51841f6b84ae467081c60c791ac/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /home/hugo/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/5b32a51841f6b84ae467081c60c791ac/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /home/hugo/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/a4119159e2c8c6e5b7a3608705437881/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /home/hugo/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/a4119159e2c8c6e5b7a3608705437881/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /home/hugo/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/9544a5ae5b890a0f2589d10eee5b84f1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /home/hugo/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/9544a5ae5b890a0f2589d10eee5b84f1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /home/hugo/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/e242c7e6c68ff621756e8876c0b085c9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /home/hugo/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/e242c7e6c68ff621756e8876c0b085c9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /home/hugo/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/ffe78eaab522aba8e600315547f97a46/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /home/hugo/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/ffe78eaab522aba8e600315547f97a46/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /home/hugo/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/8ff9fa11b66d356381bf4c8cf4c81f47/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /home/hugo/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/8ff9fa11b66d356381bf4c8cf4c81f47/AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.fresco:fresco:1.10.0] /home/hugo/.gradle/caches/transforms-1/files-1.1/fresco-1.10.0.aar/f6c08e79484db74e20cc6e15eea2f7d0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:1.10.0] /home/hugo/.gradle/caches/transforms-1/files-1.1/fresco-1.10.0.aar/f6c08e79484db74e20cc6e15eea2f7d0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.10.0] /home/hugo/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.10.0.aar/de42569c330389bac8e2efedbfbfebe1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.10.0] /home/hugo/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.10.0.aar/de42569c330389bac8e2efedbfbfebe1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:1.10.0] /home/hugo/.gradle/caches/transforms-1/files-1.1/drawee-1.10.0.aar/a6c2398ee0b0ad62e18f994b04f98908/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:1.10.0] /home/hugo/.gradle/caches/transforms-1/files-1.1/drawee-1.10.0.aar/a6c2398ee0b0ad62e18f994b04f98908/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.10.0] /home/hugo/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.10.0.aar/f1de39cac930cdf3064a0c932a528cef/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.10.0] /home/hugo/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.10.0.aar/f1de39cac930cdf3064a0c932a528cef/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] /home/hugo/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.10.0.aar/ce7bb44d1ce9010242447702651b460b/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] /home/hugo/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.10.0.aar/ce7bb44d1ce9010242447702651b460b/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.5.1] /home/hugo/.gradle/caches/transforms-1/files-1.1/soloader-0.5.1.aar/1856a3d58c8b656fea4bad83cad37db8/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:soloader:0.5.1] /home/hugo/.gradle/caches/transforms-1/files-1.1/soloader-0.5.1.aar/1856a3d58c8b656fea4bad83cad37db8/AndroidManifest.xml:7:5-9:41
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/hugo/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/847dd1c68b2eed4b289ea04ba6541a2d/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/hugo/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/847dd1c68b2eed4b289ea04ba6541a2d/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/hugo/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/43a86f63f3f4293aa1033a4ec9e6d567/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/hugo/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/43a86f63f3f4293aa1033a4ec9e6d567/AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.fresco:fbcore:1.10.0] /home/hugo/.gradle/caches/transforms-1/files-1.1/fbcore-1.10.0.aar/71443f5c1e7dbc2f9de4cec048119e8f/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:1.10.0] /home/hugo/.gradle/caches/transforms-1/files-1.1/fbcore-1.10.0.aar/71443f5c1e7dbc2f9de4cec048119e8f/AndroidManifest.xml:5:5-7:41
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/hugo/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/afa41dd3b68a4bbbb600ef5924118bfb/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/hugo/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/afa41dd3b68a4bbbb600ef5924118bfb/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /home/hugo/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/d4dedb18f7bd17fa3f2a4752b13e2fec/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /home/hugo/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/d4dedb18f7bd17fa3f2a4752b13e2fec/AndroidManifest.xml:20:5-44
+INJECTED from /home/hugo/Projetos/React/Task-React-Native/android/app/src/main/AndroidManifest.xml
+INJECTED from /home/hugo/Projetos/React/Task-React-Native/android/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /home/hugooliveira/Projetos/Curso-React-Native/Task-React-Native/android/app/src/main/AndroidManifest.xml
-		ADDED from /home/hugooliveira/Projetos/Curso-React-Native/Task-React-Native/android/app/src/main/AndroidManifest.xml
-		INJECTED from /home/hugooliveira/Projetos/Curso-React-Native/Task-React-Native/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/hugo/Projetos/React/Task-React-Native/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/hugo/Projetos/React/Task-React-Native/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/hugo/Projetos/React/Task-React-Native/android/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /home/hugooliveira/Projetos/Curso-React-Native/Task-React-Native/android/app/src/main/AndroidManifest.xml
-		ADDED from /home/hugooliveira/Projetos/Curso-React-Native/Task-React-Native/android/app/src/main/AndroidManifest.xml
-		INJECTED from /home/hugooliveira/Projetos/Curso-React-Native/Task-React-Native/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/hugo/Projetos/React/Task-React-Native/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/hugo/Projetos/React/Task-React-Native/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/hugo/Projetos/React/Task-React-Native/android/app/src/main/AndroidManifest.xml
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-IMPLIED from /home/hugooliveira/Projetos/Curso-React-Native/Task-React-Native/android/app/src/main/AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
+IMPLIED from /home/hugo/Projetos/React/Task-React-Native/android/app/src/main/AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
 uses-permission#android.permission.READ_PHONE_STATE
-IMPLIED from /home/hugooliveira/Projetos/Curso-React-Native/Task-React-Native/android/app/src/main/AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
+IMPLIED from /home/hugo/Projetos/React/Task-React-Native/android/app/src/main/AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-IMPLIED from /home/hugooliveira/Projetos/Curso-React-Native/Task-React-Native/android/app/src/main/AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc requested WRITE_EXTERNAL_STORAGE
+IMPLIED from /home/hugo/Projetos/React/Task-React-Native/android/app/src/main/AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc requested WRITE_EXTERNAL_STORAGE
