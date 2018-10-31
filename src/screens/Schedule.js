@@ -57,7 +57,7 @@ export default class Schedule extends Component {
         }
         return task
       })
-      this.setState({ tasks })
+      this.setState({ tasks }, this.filterTasks)
     }
     render() {
       console.log('O', this.state.showDoneTasks)
