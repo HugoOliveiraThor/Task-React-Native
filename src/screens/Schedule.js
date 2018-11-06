@@ -8,6 +8,8 @@ import {
   TouchableOpacity,
   Platform
 } from 'react-native'
+import axios from 'axios'
+import {server , showError} from '../common'
 import moment from 'moment'
 import 'moment/locale/pt-br'
 import todayImage from '../../assets/imgs/today.jpg'
@@ -32,6 +34,16 @@ export default class Schedule extends Component {
         const tasks = JSON.parse(data) || []
         this.filterTasks()
         this.setState({ tasks }, this.filterTasks)
+    }
+
+    loadTasks = async () => {
+        try {
+            const maxDate = moment().format('YYYY-MM-DD 23:59')
+            const res = await axios.get(`${server}/tasks?date=${maxDate}`)
+            this.setState({tasks: res.data}, this.filterTasks)
+        } catch (error) {
+            showError(error)
+        }
     }
 
     addTask = task => {

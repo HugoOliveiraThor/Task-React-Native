@@ -17,8 +17,6 @@ import {
 import moment from 'moment'
 import commonStyles from '../commonStyles'
 
-const initialState = { desc: '', date: new Date() }
-
 export default class AddTask extends Component {
     constructor(props) {
         super(props)

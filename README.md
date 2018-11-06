@@ -33,3 +33,4 @@ To resolve try the following:
 <!-- "react-native-action-button": "^2.8.5", -->
 <!-- "react-native-vector-icons": "^5.0.0" -->
 <!-- react-native-swipeable -->
+<!-- react-navigation -->
