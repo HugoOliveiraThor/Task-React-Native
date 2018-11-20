@@ -151,7 +151,8 @@ const styles = StyleSheet.create({
     subtitle: {
         fontFamily: commonStyles.fontFamily,
         color: '#FFF',
-        fontSize: 20
+        fontSize: 20,
+        paddingBottom: 10
     },
     formContainer: {
         backgroundColor: 'rgba(0,0,0,0.8)',
