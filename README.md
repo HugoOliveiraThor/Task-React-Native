@@ -3,7 +3,10 @@ A simple task made in react native
 
 ## Screens
 ### Login 
-[]()
+[Login page](https://github.com/HugoOliveiraThor/Task-React-Native/blob/master/assets/imgs/screen_login.png)
+
+### Signup
+[Signup page](https://github.com/HugoOliveiraThor/Task-React-Native/blob/master/assets/imgs/screen_signup.png)
 
 ## Command to start emulator without open android studio
 emulator -no-snapshot -avd NEXUS_5X_API_26
