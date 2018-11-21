@@ -1,11 +1,11 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/hugo/Projetos/React/Task-React-Native/android/app/src/main/AndroidManifest.xml:1:1-26:12
-INJECTED from /home/hugo/Projetos/React/Task-React-Native/android/app/src/main/AndroidManifest.xml:1:1-26:12
-INJECTED from /home/hugo/Projetos/React/Task-React-Native/android/app/src/main/AndroidManifest.xml:1:1-26:12
-INJECTED from /home/hugo/Projetos/React/Task-React-Native/android/app/src/main/AndroidManifest.xml:1:1-26:12
-MERGED from [:react-native-vector-icons] /home/hugo/Projetos/React/Task-React-Native/node_modules/react-native-vector-icons/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-11:12
-MERGED from [com.facebook.react:react-native:0.57.0] /home/hugo/.gradle/caches/transforms-1/files-1.1/react-native-0.57.0.aar/e446d860ebfebe95ffa5de06bc553748/AndroidManifest.xml:2:1-15:12
+ADDED from /media/hugo/16869BA423A839E1/Projetos/React-Native/Task-React-Native/android/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /media/hugo/16869BA423A839E1/Projetos/React-Native/Task-React-Native/android/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /media/hugo/16869BA423A839E1/Projetos/React-Native/Task-React-Native/android/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /media/hugo/16869BA423A839E1/Projetos/React-Native/Task-React-Native/android/app/src/main/AndroidManifest.xml:1:1-26:12
+MERGED from [:react-native-vector-icons] /media/hugo/16869BA423A839E1/Projetos/React-Native/Task-React-Native/node_modules/react-native-vector-icons/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [com.facebook.react:react-native:0.57.0] /home/hugo/.gradle/caches/transforms-1/files-1.1/react-native-0.57.0.aar/3c6cf9decbc28371dbd0fc11589f0263/AndroidManifest.xml:2:1-15:12
 MERGED from [com.android.support:appcompat-v7:27.1.1] /home/hugo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/b92bf6db659635525f5d31f7034cf98f/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-fragment:27.1.1] /home/hugo/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/5b32a51841f6b84ae467081c60c791ac/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:animated-vector-drawable:27.1.1] /home/hugo/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/a4119159e2c8c6e5b7a3608705437881/AndroidManifest.xml:17:1-22:12
@@ -25,83 +25,83 @@ MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/hugo/.gradle/caches/t
 MERGED from [com.facebook.fresco:fbcore:1.10.0] /home/hugo/.gradle/caches/transforms-1/files-1.1/fbcore-1.10.0.aar/71443f5c1e7dbc2f9de4cec048119e8f/AndroidManifest.xml:2:1-9:12
 MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/hugo/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/afa41dd3b68a4bbbb600ef5924118bfb/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.0] /home/hugo/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/d4dedb18f7bd17fa3f2a4752b13e2fec/AndroidManifest.xml:17:1-22:12
-INJECTED from /home/hugo/Projetos/React/Task-React-Native/android/app/src/main/AndroidManifest.xml:1:1-26:12
-INJECTED from /home/hugo/Projetos/React/Task-React-Native/android/app/src/main/AndroidManifest.xml:1:1-26:12
-INJECTED from /home/hugo/Projetos/React/Task-React-Native/android/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /media/hugo/16869BA423A839E1/Projetos/React-Native/Task-React-Native/android/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /media/hugo/16869BA423A839E1/Projetos/React-Native/Task-React-Native/android/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /media/hugo/16869BA423A839E1/Projetos/React-Native/Task-React-Native/android/app/src/main/AndroidManifest.xml:1:1-26:12
 	package
-		ADDED from /home/hugo/Projetos/React/Task-React-Native/android/app/src/main/AndroidManifest.xml:2:5-24
-		INJECTED from /home/hugo/Projetos/React/Task-React-Native/android/app/src/main/AndroidManifest.xml
-		INJECTED from /home/hugo/Projetos/React/Task-React-Native/android/app/src/main/AndroidManifest.xml
+		ADDED from /media/hugo/16869BA423A839E1/Projetos/React-Native/Task-React-Native/android/app/src/main/AndroidManifest.xml:2:5-24
+		INJECTED from /media/hugo/16869BA423A839E1/Projetos/React-Native/Task-React-Native/android/app/src/main/AndroidManifest.xml
+		INJECTED from /media/hugo/16869BA423A839E1/Projetos/React-Native/Task-React-Native/android/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /home/hugo/Projetos/React/Task-React-Native/android/app/src/main/AndroidManifest.xml
-		ADDED from /home/hugo/Projetos/React/Task-React-Native/android/app/src/main/AndroidManifest.xml:1:1-26:12
-		INJECTED from /home/hugo/Projetos/React/Task-React-Native/android/app/src/main/AndroidManifest.xml
+		INJECTED from /media/hugo/16869BA423A839E1/Projetos/React-Native/Task-React-Native/android/app/src/main/AndroidManifest.xml
+		ADDED from /media/hugo/16869BA423A839E1/Projetos/React-Native/Task-React-Native/android/app/src/main/AndroidManifest.xml:1:1-26:12
+		INJECTED from /media/hugo/16869BA423A839E1/Projetos/React-Native/Task-React-Native/android/app/src/main/AndroidManifest.xml
 	android:versionCode
-		INJECTED from /home/hugo/Projetos/React/Task-React-Native/android/app/src/main/AndroidManifest.xml
-		ADDED from /home/hugo/Projetos/React/Task-React-Native/android/app/src/main/AndroidManifest.xml:1:1-26:12
-		INJECTED from /home/hugo/Projetos/React/Task-React-Native/android/app/src/main/AndroidManifest.xml
+		INJECTED from /media/hugo/16869BA423A839E1/Projetos/React-Native/Task-React-Native/android/app/src/main/AndroidManifest.xml
+		ADDED from /media/hugo/16869BA423A839E1/Projetos/React-Native/Task-React-Native/android/app/src/main/AndroidManifest.xml:1:1-26:12
+		INJECTED from /media/hugo/16869BA423A839E1/Projetos/React-Native/Task-React-Native/android/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /home/hugo/Projetos/React/Task-React-Native/android/app/src/main/AndroidManifest.xml:1:11-69
+		ADDED from /media/hugo/16869BA423A839E1/Projetos/React-Native/Task-React-Native/android/app/src/main/AndroidManifest.xml:1:11-69
 uses-permission#android.permission.INTERNET
-ADDED from /home/hugo/Projetos/React/Task-React-Native/android/app/src/main/AndroidManifest.xml:4:5-67
+ADDED from /media/hugo/16869BA423A839E1/Projetos/React-Native/Task-React-Native/android/app/src/main/AndroidManifest.xml:4:5-67
 	android:name
-		ADDED from /home/hugo/Projetos/React/Task-React-Native/android/app/src/main/AndroidManifest.xml:4:22-64
+		ADDED from /media/hugo/16869BA423A839E1/Projetos/React-Native/Task-React-Native/android/app/src/main/AndroidManifest.xml:4:22-64
 uses-permission#android.permission.SYSTEM_ALERT_WINDOW
-ADDED from /home/hugo/Projetos/React/Task-React-Native/android/app/src/main/AndroidManifest.xml:5:5-77
-MERGED from [com.facebook.react:react-native:0.57.0] /home/hugo/.gradle/caches/transforms-1/files-1.1/react-native-0.57.0.aar/e446d860ebfebe95ffa5de06bc553748/AndroidManifest.xml:11:5-78
-MERGED from [com.facebook.react:react-native:0.57.0] /home/hugo/.gradle/caches/transforms-1/files-1.1/react-native-0.57.0.aar/e446d860ebfebe95ffa5de06bc553748/AndroidManifest.xml:11:5-78
+ADDED from /media/hugo/16869BA423A839E1/Projetos/React-Native/Task-React-Native/android/app/src/main/AndroidManifest.xml:5:5-77
+MERGED from [com.facebook.react:react-native:0.57.0] /home/hugo/.gradle/caches/transforms-1/files-1.1/react-native-0.57.0.aar/3c6cf9decbc28371dbd0fc11589f0263/AndroidManifest.xml:11:5-78
+MERGED from [com.facebook.react:react-native:0.57.0] /home/hugo/.gradle/caches/transforms-1/files-1.1/react-native-0.57.0.aar/3c6cf9decbc28371dbd0fc11589f0263/AndroidManifest.xml:11:5-78
 	android:name
-		ADDED from /home/hugo/Projetos/React/Task-React-Native/android/app/src/main/AndroidManifest.xml:5:22-75
+		ADDED from /media/hugo/16869BA423A839E1/Projetos/React-Native/Task-React-Native/android/app/src/main/AndroidManifest.xml:5:22-75
 application
-ADDED from /home/hugo/Projetos/React/Task-React-Native/android/app/src/main/AndroidManifest.xml:7:5-24:19
-MERGED from [com.facebook.react:react-native:0.57.0] /home/hugo/.gradle/caches/transforms-1/files-1.1/react-native-0.57.0.aar/e446d860ebfebe95ffa5de06bc553748/AndroidManifest.xml:13:5-20
-MERGED from [com.facebook.react:react-native:0.57.0] /home/hugo/.gradle/caches/transforms-1/files-1.1/react-native-0.57.0.aar/e446d860ebfebe95ffa5de06bc553748/AndroidManifest.xml:13:5-20
+ADDED from /media/hugo/16869BA423A839E1/Projetos/React-Native/Task-React-Native/android/app/src/main/AndroidManifest.xml:7:5-24:19
+MERGED from [com.facebook.react:react-native:0.57.0] /home/hugo/.gradle/caches/transforms-1/files-1.1/react-native-0.57.0.aar/3c6cf9decbc28371dbd0fc11589f0263/AndroidManifest.xml:13:5-20
+MERGED from [com.facebook.react:react-native:0.57.0] /home/hugo/.gradle/caches/transforms-1/files-1.1/react-native-0.57.0.aar/3c6cf9decbc28371dbd0fc11589f0263/AndroidManifest.xml:13:5-20
 MERGED from [com.facebook.soloader:soloader:0.5.1] /home/hugo/.gradle/caches/transforms-1/files-1.1/soloader-0.5.1.aar/1856a3d58c8b656fea4bad83cad37db8/AndroidManifest.xml:11:5-20
 MERGED from [com.facebook.soloader:soloader:0.5.1] /home/hugo/.gradle/caches/transforms-1/files-1.1/soloader-0.5.1.aar/1856a3d58c8b656fea4bad83cad37db8/AndroidManifest.xml:11:5-20
 MERGED from [org.webkit:android-jsc:r174650] /home/hugo/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/cbeaacc898d6358ebf512219b75e6425/AndroidManifest.xml:2:3-17
 MERGED from [org.webkit:android-jsc:r174650] /home/hugo/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/cbeaacc898d6358ebf512219b75e6425/AndroidManifest.xml:2:3-17
 	android:label
-		ADDED from /home/hugo/Projetos/React/Task-React-Native/android/app/src/main/AndroidManifest.xml:9:7-39
+		ADDED from /media/hugo/16869BA423A839E1/Projetos/React-Native/Task-React-Native/android/app/src/main/AndroidManifest.xml:9:7-39
 	android:icon
-		ADDED from /home/hugo/Projetos/React/Task-React-Native/android/app/src/main/AndroidManifest.xml:10:7-41
+		ADDED from /media/hugo/16869BA423A839E1/Projetos/React-Native/Task-React-Native/android/app/src/main/AndroidManifest.xml:10:7-41
 	android:allowBackup
-		ADDED from /home/hugo/Projetos/React/Task-React-Native/android/app/src/main/AndroidManifest.xml:11:7-34
+		ADDED from /media/hugo/16869BA423A839E1/Projetos/React-Native/Task-React-Native/android/app/src/main/AndroidManifest.xml:11:7-34
 	android:theme
-		ADDED from /home/hugo/Projetos/React/Task-React-Native/android/app/src/main/AndroidManifest.xml:12:7-38
+		ADDED from /media/hugo/16869BA423A839E1/Projetos/React-Native/Task-React-Native/android/app/src/main/AndroidManifest.xml:12:7-38
 	android:name
-		ADDED from /home/hugo/Projetos/React/Task-React-Native/android/app/src/main/AndroidManifest.xml:8:7-38
+		ADDED from /media/hugo/16869BA423A839E1/Projetos/React-Native/Task-React-Native/android/app/src/main/AndroidManifest.xml:8:7-38
 activity#com.tasks.MainActivity
-ADDED from /home/hugo/Projetos/React/Task-React-Native/android/app/src/main/AndroidManifest.xml:13:7-22:18
+ADDED from /media/hugo/16869BA423A839E1/Projetos/React-Native/Task-React-Native/android/app/src/main/AndroidManifest.xml:13:7-22:18
 	android:label
-		ADDED from /home/hugo/Projetos/React/Task-React-Native/android/app/src/main/AndroidManifest.xml:15:9-41
+		ADDED from /media/hugo/16869BA423A839E1/Projetos/React-Native/Task-React-Native/android/app/src/main/AndroidManifest.xml:15:9-41
 	android:windowSoftInputMode
-		ADDED from /home/hugo/Projetos/React/Task-React-Native/android/app/src/main/AndroidManifest.xml:17:9-51
+		ADDED from /media/hugo/16869BA423A839E1/Projetos/React-Native/Task-React-Native/android/app/src/main/AndroidManifest.xml:17:9-51
 	android:configChanges
-		ADDED from /home/hugo/Projetos/React/Task-React-Native/android/app/src/main/AndroidManifest.xml:16:9-79
+		ADDED from /media/hugo/16869BA423A839E1/Projetos/React-Native/Task-React-Native/android/app/src/main/AndroidManifest.xml:16:9-79
 	android:name
-		ADDED from /home/hugo/Projetos/React/Task-React-Native/android/app/src/main/AndroidManifest.xml:14:9-37
+		ADDED from /media/hugo/16869BA423A839E1/Projetos/React-Native/Task-React-Native/android/app/src/main/AndroidManifest.xml:14:9-37
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /home/hugo/Projetos/React/Task-React-Native/android/app/src/main/AndroidManifest.xml:18:9-21:25
+ADDED from /media/hugo/16869BA423A839E1/Projetos/React-Native/Task-React-Native/android/app/src/main/AndroidManifest.xml:18:9-21:25
 action#android.intent.action.MAIN
-ADDED from /home/hugo/Projetos/React/Task-React-Native/android/app/src/main/AndroidManifest.xml:19:13-65
+ADDED from /media/hugo/16869BA423A839E1/Projetos/React-Native/Task-React-Native/android/app/src/main/AndroidManifest.xml:19:13-65
 	android:name
-		ADDED from /home/hugo/Projetos/React/Task-React-Native/android/app/src/main/AndroidManifest.xml:19:21-62
+		ADDED from /media/hugo/16869BA423A839E1/Projetos/React-Native/Task-React-Native/android/app/src/main/AndroidManifest.xml:19:21-62
 category#android.intent.category.LAUNCHER
-ADDED from /home/hugo/Projetos/React/Task-React-Native/android/app/src/main/AndroidManifest.xml:20:13-73
+ADDED from /media/hugo/16869BA423A839E1/Projetos/React-Native/Task-React-Native/android/app/src/main/AndroidManifest.xml:20:13-73
 	android:name
-		ADDED from /home/hugo/Projetos/React/Task-React-Native/android/app/src/main/AndroidManifest.xml:20:23-70
+		ADDED from /media/hugo/16869BA423A839E1/Projetos/React-Native/Task-React-Native/android/app/src/main/AndroidManifest.xml:20:23-70
 activity#com.facebook.react.devsupport.DevSettingsActivity
-ADDED from /home/hugo/Projetos/React/Task-React-Native/android/app/src/main/AndroidManifest.xml:23:7-84
+ADDED from /media/hugo/16869BA423A839E1/Projetos/React-Native/Task-React-Native/android/app/src/main/AndroidManifest.xml:23:7-84
 	android:name
-		ADDED from /home/hugo/Projetos/React/Task-React-Native/android/app/src/main/AndroidManifest.xml:23:17-81
+		ADDED from /media/hugo/16869BA423A839E1/Projetos/React-Native/Task-React-Native/android/app/src/main/AndroidManifest.xml:23:17-81
 uses-sdk
-INJECTED from /home/hugo/Projetos/React/Task-React-Native/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /home/hugo/Projetos/React/Task-React-Native/android/app/src/main/AndroidManifest.xml
-INJECTED from /home/hugo/Projetos/React/Task-React-Native/android/app/src/main/AndroidManifest.xml
-MERGED from [:react-native-vector-icons] /home/hugo/Projetos/React/Task-React-Native/node_modules/react-native-vector-icons/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-vector-icons] /home/hugo/Projetos/React/Task-React-Native/node_modules/react-native-vector-icons/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.react:react-native:0.57.0] /home/hugo/.gradle/caches/transforms-1/files-1.1/react-native-0.57.0.aar/e446d860ebfebe95ffa5de06bc553748/AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.react:react-native:0.57.0] /home/hugo/.gradle/caches/transforms-1/files-1.1/react-native-0.57.0.aar/e446d860ebfebe95ffa5de06bc553748/AndroidManifest.xml:7:5-9:41
+INJECTED from /media/hugo/16869BA423A839E1/Projetos/React-Native/Task-React-Native/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /media/hugo/16869BA423A839E1/Projetos/React-Native/Task-React-Native/android/app/src/main/AndroidManifest.xml
+INJECTED from /media/hugo/16869BA423A839E1/Projetos/React-Native/Task-React-Native/android/app/src/main/AndroidManifest.xml
+MERGED from [:react-native-vector-icons] /media/hugo/16869BA423A839E1/Projetos/React-Native/Task-React-Native/node_modules/react-native-vector-icons/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-vector-icons] /media/hugo/16869BA423A839E1/Projetos/React-Native/Task-React-Native/node_modules/react-native-vector-icons/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.57.0] /home/hugo/.gradle/caches/transforms-1/files-1.1/react-native-0.57.0.aar/3c6cf9decbc28371dbd0fc11589f0263/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.57.0] /home/hugo/.gradle/caches/transforms-1/files-1.1/react-native-0.57.0.aar/3c6cf9decbc28371dbd0fc11589f0263/AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support:appcompat-v7:27.1.1] /home/hugo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/b92bf6db659635525f5d31f7034cf98f/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:appcompat-v7:27.1.1] /home/hugo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/b92bf6db659635525f5d31f7034cf98f/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-fragment:27.1.1] /home/hugo/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/5b32a51841f6b84ae467081c60c791ac/AndroidManifest.xml:20:5-44
@@ -138,19 +138,19 @@ MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/hugo/.gradle/caches/tra
 MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/hugo/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/afa41dd3b68a4bbbb600ef5924118bfb/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.core:runtime:1.1.0] /home/hugo/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/d4dedb18f7bd17fa3f2a4752b13e2fec/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.core:runtime:1.1.0] /home/hugo/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/d4dedb18f7bd17fa3f2a4752b13e2fec/AndroidManifest.xml:20:5-44
-INJECTED from /home/hugo/Projetos/React/Task-React-Native/android/app/src/main/AndroidManifest.xml
-INJECTED from /home/hugo/Projetos/React/Task-React-Native/android/app/src/main/AndroidManifest.xml
+INJECTED from /media/hugo/16869BA423A839E1/Projetos/React-Native/Task-React-Native/android/app/src/main/AndroidManifest.xml
+INJECTED from /media/hugo/16869BA423A839E1/Projetos/React-Native/Task-React-Native/android/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /home/hugo/Projetos/React/Task-React-Native/android/app/src/main/AndroidManifest.xml
-		ADDED from /home/hugo/Projetos/React/Task-React-Native/android/app/src/main/AndroidManifest.xml
-		INJECTED from /home/hugo/Projetos/React/Task-React-Native/android/app/src/main/AndroidManifest.xml
+		INJECTED from /media/hugo/16869BA423A839E1/Projetos/React-Native/Task-React-Native/android/app/src/main/AndroidManifest.xml
+		ADDED from /media/hugo/16869BA423A839E1/Projetos/React-Native/Task-React-Native/android/app/src/main/AndroidManifest.xml
+		INJECTED from /media/hugo/16869BA423A839E1/Projetos/React-Native/Task-React-Native/android/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /home/hugo/Projetos/React/Task-React-Native/android/app/src/main/AndroidManifest.xml
-		ADDED from /home/hugo/Projetos/React/Task-React-Native/android/app/src/main/AndroidManifest.xml
-		INJECTED from /home/hugo/Projetos/React/Task-React-Native/android/app/src/main/AndroidManifest.xml
+		INJECTED from /media/hugo/16869BA423A839E1/Projetos/React-Native/Task-React-Native/android/app/src/main/AndroidManifest.xml
+		ADDED from /media/hugo/16869BA423A839E1/Projetos/React-Native/Task-React-Native/android/app/src/main/AndroidManifest.xml
+		INJECTED from /media/hugo/16869BA423A839E1/Projetos/React-Native/Task-React-Native/android/app/src/main/AndroidManifest.xml
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-IMPLIED from /home/hugo/Projetos/React/Task-React-Native/android/app/src/main/AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
+IMPLIED from /media/hugo/16869BA423A839E1/Projetos/React-Native/Task-React-Native/android/app/src/main/AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
 uses-permission#android.permission.READ_PHONE_STATE
-IMPLIED from /home/hugo/Projetos/React/Task-React-Native/android/app/src/main/AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
+IMPLIED from /media/hugo/16869BA423A839E1/Projetos/React-Native/Task-React-Native/android/app/src/main/AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-IMPLIED from /home/hugo/Projetos/React/Task-React-Native/android/app/src/main/AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc requested WRITE_EXTERNAL_STORAGE
+IMPLIED from /media/hugo/16869BA423A839E1/Projetos/React-Native/Task-React-Native/android/app/src/main/AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc requested WRITE_EXTERNAL_STORAGE

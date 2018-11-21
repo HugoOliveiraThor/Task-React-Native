@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/hugo/Projetos/React/Task-React-Native/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-be/values-be.xml",
+            "outputFile": "/media/hugo/16869BA423A839E1/Projetos/React-Native/Task-React-Native/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-be/values-be.xml",
             "map": [
                 {
                     "source": "/home/hugo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/b92bf6db659635525f5d31f7034cf98f/res/values-be/values-be.xml",

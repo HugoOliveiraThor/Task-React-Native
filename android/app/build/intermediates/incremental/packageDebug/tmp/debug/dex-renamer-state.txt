@@ -1,4 +1,4 @@
-#Wed Oct 31 11:42:00 BRT 2018
-base.0=/home/hugo/Projetos/React/Task-React-Native/android/app/build/intermediates/transforms/dexMerger/debug/0
-path.0=classes.dex
+#Tue Nov 20 22:39:28 BRST 2018
+base.0=/media/hugo/16869BA423A839E1/Projetos/React-Native/Task-React-Native/android/app/build/intermediates/transforms/dexMerger/debug/0
 renamed.0=classes.dex
+path.0=classes.dex

@@ -14,6 +14,9 @@ import AuthInput from '../components/AuthInput'
 import commonStyles from '../commonStyles'
 import backgroundImage from '../../assets/imgs/login.jpg'
 
+// headers: { Accept: 'application/json', 'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8', },
+axios.defaults.headers.post['Content-Type'] = 'application/x-www-form-urlencoded'
+
 export default class Auth extends Component {
     state = {
         stageNew: false,
@@ -33,16 +36,18 @@ export default class Auth extends Component {
             this.props.navigation.navigate('Home')
         } catch (error) {
             console.log('Error', JSON.stringify(error))
+            console.log('Error', error.request)
             if (this.state.email === 'hugo@mail.com' && this.state.password === '123456') {
                 this.props.navigation.navigate('Home')
                 return
-            }  
+            }
             Alert.alert('Erro', 'Falha no login')
         }
     }
 
     signup = async () => {
         try {
+         console.log(server)
             await axios.post(`${server}/signup`, {
                 name: this.state.name,
                 email: this.state.email,
@@ -50,19 +55,20 @@ export default class Auth extends Component {
             })
             Alert.alert('Sucesso!', 'Usuário cadastrado :)')
         } catch (error) {
+         console.log('ERROR', error)
             showError()
         }
     }
 
     signinOrSignup = () => {
-        console.log('Entrou')
+        console.log('Entrouuuu', this.state.stageNew)
         if(this.state.stageNew) {
             this.signup()
         } else {
             this.signin()
         }
     }
-    
+
     render () {
 
         const validations = []
@@ -75,7 +81,7 @@ export default class Auth extends Component {
             validations.push(this.state.confirmPassword)
             validations.push(this.state.password === this.state.confirmPassword)
         }
-        const validForm = validations.reduce((all,v) => all && v) // If any validation is false all validation are false 
+        const validForm = validations.reduce((all,v) => all && v) // If any validation is false all validation are false
 
         return (
             <ImageBackground source={backgroundImage} style={styles.background}>
@@ -87,20 +93,20 @@ export default class Auth extends Component {
 
                     {this.state.stageNew &&
                     <AuthInput
-                            icon='user' 
-                            placeholder='Nome' 
-                            style={styles.input} 
-                            value={this.state.name} 
+                            icon='user'
+                            placeholder='Nome'
+                            style={styles.input}
+                            value={this.state.name}
                             onChangeText={name => this.setState({ name })} />}
                     <AuthInput
-                            icon='at' 
-                            placeholder='Email' 
+                            icon='at'
+                            placeholder='Email'
                             value={this.state.email}
-                            style={styles.input} 
+                            style={styles.input}
                             onChangeText={email => this.setState({ email })} />
                     <AuthInput
                             icon='lock'
-                            secureTextEntry={true} 
+                            secureTextEntry={true}
                             placeholder='Senha'
                             style={styles.input}
                             value={this.state.password}
@@ -109,11 +115,11 @@ export default class Auth extends Component {
                         <AuthInput
                             icon='asterisk'
                             secureTextEntry={true}
-                            style={styles.input} 
-                            placeholder='Confirmação' 
+                            style={styles.input}
+                            placeholder='Confirmação'
                             value={this.state.confirmPassword}
                             onChangeText={confirmPassword => this.setState({ confirmPassword })} />}
-                    <TouchableOpacity 
+                    <TouchableOpacity
                         disabled={!validForm}
                         onPress={this.signinOrSignup}>
                         <View style={[styles.button, !validForm ? {backgroundColor: '#AAA'}: {}]}>
@@ -161,7 +167,7 @@ const styles = StyleSheet.create({
     },
     input: {
       marginTop: 20,
-      backgroundColor: '#FFF' 
+      backgroundColor: '#FFF'
     },
     button: {
         backgroundColor: '#080',
