@@ -4,6 +4,7 @@ A simple task made in react native
 ## Screens
 ### Login 
 ![Login page](https://github.com/HugoOliveiraThor/Task-React-Native/blob/master/assets/imgs/screen_login.png =404x718)
+<img src="https://github.com/HugoOliveiraThor/Task-React-Native/blob/master/assets/imgs/screen_login.png" alt="drawing" width="200"/>
 
 ### Signup
 ![Signup page](https://github.com/HugoOliveiraThor/Task-React-Native/blob/master/assets/imgs/screen_signup.png)
